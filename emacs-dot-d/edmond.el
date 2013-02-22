@@ -206,16 +206,16 @@
 (setq-default fill-column 80)
 
 ;; gtags
-(require 'gtags)
-(global-set-key "\M-." 'gtags-show-tag-locations-regexp)
-(global-set-key "\C-x." 'gtags-show-tag-locations)
-(global-set-key "\C-x;" 'gtags-show-callers)
-(global-set-key "\C-x'" 'gtags-show-callers)
-(global-set-key "\C-x," 'gtags-pop-tag)
+;; (require 'gtags)
+;; (global-set-key "\M-." 'gtags-show-tag-locations-regexp)
+;; (global-set-key "\C-x." 'gtags-show-tag-locations)
+;; (global-set-key "\C-x;" 'gtags-show-callers)
+;; (global-set-key "\C-x'" 'gtags-show-callers)
+;; (global-set-key "\C-x," 'gtags-pop-tag)
 
-(setq gtags-default-mode 'python-mode)
-(setq gtags-output-mode 'single-line-grouped)
-(setq gtags-use-gtags-mixer t)
+;; (setq gtags-default-mode 'python-mode)
+;; (setq gtags-output-mode 'single-line-grouped)
+;; (setq gtags-use-gtags-mixer t)
 
 (global-set-key "\M-'" 'next-match)
 
